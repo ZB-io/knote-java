@@ -1,0 +1,127 @@
+[
+  {
+    "name": "doggie",
+    "photoUrls": [
+      "url1",
+      "url2"
+    ],
+    "id": 1,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "tags": [
+      {
+        "id": "1",
+        "name": "tag1"
+      },
+      {
+        "id": "2",
+        "name": "tag2"
+      }
+    ],
+    "status": "available",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "name": "cat",
+    "photoUrls": [
+      "url1",
+      "url2"
+    ],
+    "id": 2,
+    "category": {
+      "id": 2,
+      "name": "Cats"
+    },
+    "tags": [
+      {
+        "id": "3",
+        "name": "tag3"
+      },
+      {
+        "id": "4",
+        "name": "tag4"
+      }
+    ],
+    "status": "pending",
+    "statusCode": 400,
+    "scenario": "Invalid status value"
+  },
+  {
+    "name": "rabbit",
+    "photoUrls": [
+      "url1",
+      "url2"
+    ],
+    "id": 3,
+    "category": {
+      "id": 3,
+      "name": "Rabbits"
+    },
+    "tags": [
+      {
+        "id": "5",
+        "name": "tag5"
+      },
+      {
+        "id": "6",
+        "name": "tag6"
+      }
+    ],
+    "status": "sold",
+    "statusCode": 500,
+    "scenario": "Unexpected error"
+  },
+  {
+    "name": "bird",
+    "photoUrls": [
+      "url1",
+      "url2"
+    ],
+    "id": 4,
+    "category": {
+      "id": 4,
+      "name": "Birds"
+    },
+    "tags": [
+      {
+        "id": "7",
+        "name": "tag7"
+      },
+      {
+        "id": "8",
+        "name": "tag8"
+      }
+    ],
+    "status": "available",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "name": "fish",
+    "photoUrls": [
+      "url1",
+      "url2"
+    ],
+    "id": 5,
+    "category": {
+      "id": 5,
+      "name": "Fishes"
+    },
+    "tags": [
+      {
+        "id": "9",
+        "name": "tag9"
+      },
+      {
+        "id": "10",
+        "name": "tag10"
+      }
+    ],
+    "status": "pending",
+    "statusCode": 400,
+    "scenario": "Invalid status value"
+  }
+]

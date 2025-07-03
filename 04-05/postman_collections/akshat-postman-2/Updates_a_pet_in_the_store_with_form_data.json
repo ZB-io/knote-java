@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Dogs",
+    "status": "available",
+    "petId": 1234567890,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "name": "Cats",
+    "status": "pending",
+    "petId": 9876543210,
+    "statusCode": 400,
+    "scenario": "Invalid input"
+  },
+  {
+    "name": "Birds",
+    "status": "sold",
+    "petId": 1122334455,
+    "statusCode": 500,
+    "scenario": "Unexpected error"
+  },
+  {
+    "name": "Fish",
+    "status": "available",
+    "petId": 6677889900,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "name": "Reptiles",
+    "status": "pending",
+    "petId": 1212121212,
+    "statusCode": 400,
+    "scenario": "Invalid input"
+  }
+]

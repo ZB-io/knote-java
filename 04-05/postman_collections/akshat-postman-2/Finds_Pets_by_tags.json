@@ -1,0 +1,42 @@
+[
+  {
+    "tags": [
+      "dog",
+      "pet"
+    ],
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "tags": [
+      "cat",
+      "feline"
+    ],
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "tags": [
+      "rabbit",
+      "rodent"
+    ],
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "tags": [
+      "hamster",
+      "rodent"
+    ],
+    "statusCode": 400,
+    "scenario": "Invalid tag value"
+  },
+  {
+    "tags": [
+      "guinea pig",
+      "rodent"
+    ],
+    "statusCode": 500,
+    "scenario": "Unexpected error"
+  }
+]
