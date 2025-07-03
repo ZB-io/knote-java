@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "petId": "2",
+    "quantity": "3",
+    "shipDate": "2023-10-01T12:34:56Z",
+    "status": "available",
+    "complete": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "id": "4",
+    "petId": "5",
+    "quantity": "6",
+    "shipDate": "2023-10-02T12:34:56Z",
+    "status": "pending",
+    "complete": false,
+    "statusCode": 400,
+    "scenario": "Invalid input"
+  },
+  {
+    "id": "7",
+    "petId": "8",
+    "quantity": "9",
+    "shipDate": "2023-10-03T12:34:56Z",
+    "status": "sold",
+    "complete": true,
+    "statusCode": 422,
+    "scenario": "Validation exception"
+  },
+  {
+    "id": "10",
+    "petId": "11",
+    "quantity": "12",
+    "shipDate": "2023-10-04T12:34:56Z",
+    "status": "available",
+    "complete": false,
+    "statusCode": 500,
+    "scenario": "Unexpected error"
+  },
+  {
+    "id": "13",
+    "petId": "14",
+    "quantity": "15",
+    "shipDate": "2023-10-05T12:34:56Z",
+    "status": "pending",
+    "complete": true,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  }
+]

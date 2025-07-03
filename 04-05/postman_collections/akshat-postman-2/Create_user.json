@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "username": "theUser",
+    "firstName": "John",
+    "lastName": "James",
+    "email": "john@email.com",
+    "password": "12345",
+    "phone": "12345",
+    "userStatus": 1,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "id": "2",
+    "username": "theUser2",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane@email.com",
+    "password": "54321",
+    "phone": "54321",
+    "userStatus": 2,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "id": "3",
+    "username": "theUser3",
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "alice@email.com",
+    "password": "password123",
+    "phone": "98765",
+    "userStatus": 3,
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "id": "invalid",
+    "username": "invalidUser",
+    "firstName": "Invalid",
+    "lastName": "User",
+    "email": "invalid@email.com",
+    "password": "invalidPassword",
+    "phone": "invalidPhone",
+    "userStatus": "invalidStatus",
+    "statusCode": 500,
+    "scenario": "Unexpected error"
+  },
+  {
+    "id": "invalid2",
+    "username": "invalidUser2",
+    "firstName": "Invalid2",
+    "lastName": "User2",
+    "email": "invalid2@email.com",
+    "password": "invalidPassword2",
+    "phone": "invalidPhone2",
+    "userStatus": "invalidStatus2",
+    "statusCode": 500,
+    "scenario": "Unexpected error"
+  }
+]

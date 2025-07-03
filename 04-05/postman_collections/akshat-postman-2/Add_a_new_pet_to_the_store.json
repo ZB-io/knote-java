@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Dog",
+    "photoUrls": [
+      "https://example.com/photo1.jpg",
+      "https://example.com/photo2.jpg"
+    ],
+    "id": 1,
+    "tags": [
+      {
+        "id": "tag1",
+        "name": "tag1_name"
+      },
+      {
+        "id": "tag2",
+        "name": "tag2_name"
+      }
+    ],
+    "status": "available",
+    "statusCode": 200,
+    "scenario": "Successful operation"
+  },
+  {
+    "name": "Cat",
+    "photoUrls": [
+      "https://example.com/photo3.jpg",
+      "https://example.com/photo4.jpg"
+    ],
+    "id": 2,
+    "tags": [
+      {
+        "id": "tag3",
+        "name": "tag3_name"
+      },
+      {
+        "id": "tag4",
+        "name": "tag4_name"
+      }
+    ],
+    "status": "pending",
+    "statusCode": 400,
+    "scenario": "Invalid input"
+  },
+  {
+    "name": "Bird",
+    "photoUrls": [
+      "https://example.com/photo5.jpg",
+      "https://example.com/photo6.jpg"
+    ],
+    "id": 3,
+    "tags": [
+      {
+        "id": "tag5",
+        "name": "tag5_name"
+      },
+      {
+        "id": "tag6",
+        "name": "tag6_name"
+      }
+    ],
+    "status": "sold",
+    "statusCode": 422,
+    "scenario": "Validation exception"
+  },
+  {
+    "name": "Fish",
+    "photoUrls": [
+      "https://example.com/photo7.jpg",
+      "https://example.com/photo8.jpg"
+    ],
+    "id": 4,
+    "tags": [
+      {
+        "id": "tag7",
+        "name": "tag7_name"
+      },
+      {
+        "id": "tag8",
+        "name": "tag8_name"
+      }
+    ],
+    "status": "available",
+    "statusCode": 500,
+    "scenario": "Unexpected error"
+  }
+]
