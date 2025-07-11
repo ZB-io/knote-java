@@ -43,6 +43,7 @@ public class KnoteController {
     public ResponseEntity<List<Note>> index(Model model) {
         // System.out.println("+++++++++++++++++++++++++++"+model.toString());
         // retrigger check
+        int a = 10;
         List<Note> notes = getAllNotes(model);
         return ResponseEntity.ok(notes);
         // return "index";
